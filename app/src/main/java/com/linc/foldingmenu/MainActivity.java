@@ -37,7 +37,7 @@ public class MainActivity extends Activity {
         
         initViews() ;
 
-        Log.d("onCreate", "everything is done!");
+        //Log.d("onCreate", "everything is done!");
     }
     
 
