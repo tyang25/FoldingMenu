@@ -6,6 +6,7 @@ import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.animation.AccelerateInterpolator;
@@ -35,6 +36,8 @@ public class MainActivity extends Activity {
         findViews() ;
         
         initViews() ;
+
+        Log.d("onCreate", "everything is done!");
     }
     
 
